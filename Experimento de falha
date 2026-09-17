@@ -1,0 +1,5 @@
+• 4. Explique por que uma chamada que parecia uma simples função deixou de funcionar.
+A chamada deixou de funcionar porque a função é executada remotamente pelo servidor. Quando o servidor foi desligado, o cliente não conseguiu estabelecer a conexão para solicitar o cálculo.
+
+• 5. Relacione o resultado com disponibilidade e dependência da rede.
+O resultado demonstra a dependência da rede e da disponibilidade do servidor. Se o servidor estiver indisponível, as chamadas RPC não podem ser realizadas, mesmo que no código pareçam chamadas de funções comuns.
